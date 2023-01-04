@@ -1,0 +1,22 @@
+.login {
+  position: relative;
+  height: 100vh;
+  background-image: url("/static/images/login_bg-f7a2e6fc.svg");
+  background-size: cover;
+  background-position: top;
+
+  &--book {
+    width: 45rem;
+    background-color: $color-tertiary-light;
+    background-size: 100%;
+    border-radius: 3px;
+    box-shadow: 0 1.5rem 4rem rgba($color-black, .2);
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+}
+
+
